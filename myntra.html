@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Myntra Premium</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="myntra.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+        <header class="topbar">
+                <div class="logo_container">
+                        <a href="#">
+                                <img class="myntra-home"
+                                        src="https://images.indianexpress.com/2023/10/myntra-logo-1.jpg"
+                                        alt="Myntra Logo">
+                        </a>
+                </div>
+
+                <nav class="nav_bar" aria-label="Main navigation">
+                        <a href="#">Men</a>
+                        <a href="#">Women</a>
+                        <a href="#">Kids</a>
+                        <a href="#">Home & Living</a>
+                        <a href="#">Beauty</a>
+                        <a href="#">Studio <sup>New</sup></a>
+                </nav>
+
+                <div class="search_bar">
+                        <i class="fa-solid fa-magnifying-glass search_icon"></i>
+                        <input id="searchInput" class="search_input" type="text"
+                                placeholder="Search for products, brands and more">
+                </div>
+
+                <div class="action_bar">
+                        <div class="action_container" id="profileAction">
+                                <span><i class="fa-regular fa-user action_icon"></i></span>
+                                <span class="action_text">Profile</span>
+                        </div>
+                        <div class="action_container">
+                                <span><i class="fa-regular fa-heart action_icon"></i></span>
+                                <span class="action_text">Wishlist</span>
+                        </div>
+                        <div class="action_container cart-pill">
+                                <span><i class="fa-solid fa-bag-shopping action_icon"></i></span>
+                                <span class="action_text">Bag</span>
+                                <span id="cartCount" class="cart-count">0</span>
+                        </div>
+                </div>
+        </header>
+
+        <main>
+                <section class="hero-section">
+                        <div class="hero-slider">
+                                <button class="slider-btn prev-btn" aria-label="Previous slide"><i
+                                                class="fa-solid fa-chevron-left"></i></button>
+                                <div class="slides">
+                                        <div class="slide active">
+                                                <div class="slide-copy">
+                                                        <span class="eyebrow">New Season</span>
+                                                        <h1>Style for every mood.</h1>
+                                                        <p>Fresh fits, premium comfort, and exclusive deals for modern
+                                                                wardrobes.</p>
+                                                        <div class="slide-actions">
+                                                                <button class="cta-primary">Shop Now</button>
+                                                                <button class="cta-secondary">Explore More</button>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="slide second">
+                                                <div class="slide-copy">
+                                                        <span class="eyebrow">Mega Sale</span>
+                                                        <h1>Up to 70% off</h1>
+                                                        <p>Trending premium picks, designer essentials, and instant
+                                                                savings.</p>
+                                                        <div class="slide-actions">
+                                                                <button class="cta-primary">Grab Deals</button>
+                                                                <button class="cta-secondary">View Offers</button>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="slide third">
+                                                <div class="slide-copy">
+                                                        <span class="eyebrow">Essentials</span>
+                                                        <h1>Built for every day.</h1>
+                                                        <p>Minimal essentials, elevated basics, and performance-driven
+                                                                comfort.</p>
+                                                        <div class="slide-actions">
+                                                                <button class="cta-primary">Shop Essentials</button>
+                                                                <button class="cta-secondary">Meet The Look</button>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                                <button class="slider-btn next-btn" aria-label="Next slide"><i
+                                                class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                </section>
+
+                <section class="promo-strip">
+                        <div class="promo-item"><span>Free shipping</span> on orders above ₹999</div>
+                        <div class="promo-item"><span>Easy returns</span> within 14 days</div>
+                        <div class="promo-item"><span>100% original</span> guaranteed</div>
+                </section>
+
+                <section class="category-section">
+                        <div class="section-heading">
+                                <h2>Luxury picks</h2>
+                                <a href="#">View all</a>
+                        </div>
+                        <div class="category_item offer-grid">
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/1.png?raw=true"
+                                                alt="Offer 1"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/2.png?raw=true"
+                                                alt="Offer 2"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/3.png?raw=true"
+                                                alt="Offer 3"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/4.png?raw=true"
+                                                alt="Offer 4"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/5.png?raw=true"
+                                                alt="Offer 5"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/6.png?raw=true"
+                                                alt="Offer 6"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/7.png?raw=true"
+                                                alt="Offer 7"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/8.png?raw=true"
+                                                alt="Offer 8"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/9.png?raw=true"
+                                                alt="Offer 9"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/10.png?raw=true"
+                                                alt="Offer 10"></a>
+                        </div>
+                </section>
+
+                <section class="category-section">
+                        <div class="section-heading">
+                                <h2>Shop by category</h2>
+                                <a href="#">Explore</a>
+                        </div>
+                        <div class="category_item">
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/1.jpg?raw=true"
+                                                alt="Category 1"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/2.jpg?raw=true"
+                                                alt="Category 2"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/3.jpg?raw=true"
+                                                alt="Category 3"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/4.jpg?raw=true"
+                                                alt="Category 4"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/5.jpg?raw=true"
+                                                alt="Category 5"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/6.jpg?raw=true"
+                                                alt="Category 6"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/7.jpg?raw=true"
+                                                alt="Category 7"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/8.jpg?raw=true"
+                                                alt="Category 8"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/9.jpg?raw=true"
+                                                alt="Category 9"></a>
+                                <a href="#"><img class="sale_item"
+                                                src="https://github.com/Complete-Coding/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/10.jpg?raw=true"
+                                                alt="Category 10"></a>
+                        </div>
+                </section>
+
+                <section class="product-showcase">
+                        <div class="section-heading">
+                                <h2>Trending now</h2>
+                                <a href="#">See more</a>
+                        </div>
+                        <div class="filter-row">
+                                <button class="filter-chip active" data-filter="all">All</button>
+                                <button class="filter-chip" data-filter="Men">Men</button>
+                                <button class="filter-chip" data-filter="Women">Women</button>
+                                <button class="filter-chip" data-filter="Accessories">Accessories</button>
+                                <button class="filter-chip" data-filter="Footwear">Footwear</button>
+                        </div>
+                        <div id="productGrid" class="product-grid"></div>
+                </section>
+        </main>
+
+        <footer>
+                <div class="footer_container">
+                        <div class="footer_column">
+                                <h3>Online Shopping</h3>
+                                <a href="#">Men</a>
+                                <a href="#">Women</a>
+                                <a href="#">Kids</a>
+                                <a href="#">Home & Living</a>
+                                <a href="#">Beauty</a>
+                                <a href="#">Gift Cards</a>
+                        </div>
+                        <div class="footer_column">
+                                <h3>Useful Links</h3>
+                                <a href="#">Contact Us</a>
+                                <a href="#">FAQ</a>
+                                <a href="#">T&C</a>
+                                <a href="#">Terms of use</a>
+                                <a href="#">Track Orders</a>
+                                <a href="#">Shipping</a>
+                        </div>
+                        <div class="footer_column">
+                                <h3>Company</h3>
+                                <a href="#">About us</a>
+                                <a href="#">Careers</a>
+                                <a href="#">Press</a>
+                                <a href="#">Corporate Information</a>
+                                <a href="#">Instagram</a>
+                                <a href="#">Pinterest</a>
+                        </div>
+                </div>
+                <div class="newsletter">
+                        <h3>Stay in style</h3>
+                        <div class="newsletter-box">
+                                <input type="email" placeholder="Enter your email">
+                                <button>Subscribe</button>
+                        </div>
+                </div>
+                <div class="copyright">
+                        <i class="fa-regular fa-copyright"></i> 2026 Myntra Premium. All rights reserved.
+                </div>
+        </footer>
+
+        <div id="toast" class="toast">Added to bag</div>
+
+        <script src="myntra.js"></script>
+</body>
+
+</html>
